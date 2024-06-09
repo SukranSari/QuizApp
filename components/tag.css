@@ -1,0 +1,22 @@
+.tag_section {
+  display: flex;
+  justify-content: left;
+}
+
+.tag {
+  background-color: white;
+  border-radius: 3px;
+  margin: 2px;
+  margin-bottom: 0;
+}
+
+.tag_switch_mode {
+  display: flex;
+  justify-content: left;
+  padding: 5px;
+  width: 110px;
+  height: 40px;
+  flex-direction: row;
+  font-size: 18px;
+  font-weight: 700;
+}

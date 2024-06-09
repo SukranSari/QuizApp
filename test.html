@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First App</title>
+    <style>
+      .mystyle {
+        list-style: none;
+        background-color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <p>Hallo</p>
+    <button class="btn btn-primary" onclick="alert('Ich bin hier')">
+      <strong>GROSS</strong>
+    </button>
+    <ul id="liste" class="mystyle">
+      <li>1</li>
+      <li>2</li>
+
+      <li>10</li>
+    </ul>
+    <button type="button" onclick="los()">Click Me!</button>
+
+    <script>
+      function los() {
+        let element = document.getElementById("liste");
+        if (element.style.backgroundColor === "") {
+          element.style.backgroundColor = "#123456";
+        } else {
+          element.style.backgroundColor = "";
+        }
+      }
+      let myarr = [1, 2, 3];
+      let anzahl = myarr.length;
+    </script>
+  </body>
+</html>

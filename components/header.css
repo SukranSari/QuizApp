@@ -1,0 +1,11 @@
+.header {
+  display: flex;
+  gap: 12px;
+  background-color: lightgray;
+  justify-content: center;
+  border-bottom: 2px solid;
+}
+
+.header-title {
+  margin: 0;
+}

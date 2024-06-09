@@ -1,0 +1,22 @@
+.card {
+  background-color: lightblue;
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 30px;
+  padding: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.card_question {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card_bookmark {
+  position: absolute;
+  top: -20px;
+  right: 0px;
+}
